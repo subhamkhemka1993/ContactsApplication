@@ -1,4 +1,4 @@
-package com.sk.contactsapplication.presentation.home_fragment
+package com.sk.contactsapplication.presentation.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -8,9 +8,7 @@ import com.sk.contactsapplication.base.BaseResponse
 import com.sk.contactsapplication.base.BaseViewModel
 import com.sk.contactsapplication.data.repository.Repository
 import com.sk.contactsapplication.data.response_models.UserInfo
-import com.sk.contactsapplication.helpers.PaginationListener
 import com.sk.contactsapplication.helpers.UIText
-import com.sk.contactsapplication.presentation.login_register.LoginRegisterUIState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

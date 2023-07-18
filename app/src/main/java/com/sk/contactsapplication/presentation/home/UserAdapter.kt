@@ -1,4 +1,4 @@
-package com.sk.contactsapplication.presentation.home_fragment
+package com.sk.contactsapplication.presentation.home
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

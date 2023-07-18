@@ -1,4 +1,4 @@
-package com.sk.contactsapplication.presentation
+package com.sk.contactsapplication.presentation.main_activity
 
 import com.sk.contactsapplication.base.BaseViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel

@@ -1,4 +1,4 @@
-package com.sk.contactsapplication.presentation.home_fragment
+package com.sk.contactsapplication.presentation.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -27,10 +27,6 @@ class HomeFragment : BaseFragment() {
     private var userAdapter: UserAdapter? = null
 
     private val homeViewModel: HomeViewModel by viewModels()
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

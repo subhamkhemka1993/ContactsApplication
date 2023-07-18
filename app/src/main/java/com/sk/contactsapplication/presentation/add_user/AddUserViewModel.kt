@@ -8,10 +8,7 @@ import com.sk.contactsapplication.base.BaseResponse
 import com.sk.contactsapplication.base.BaseViewModel
 import com.sk.contactsapplication.data.repository.Repository
 import com.sk.contactsapplication.data.request_body.AddUserBody
-import com.sk.contactsapplication.data.request_body.LoginRegisterBody
-import com.sk.contactsapplication.helpers.Constants
 import com.sk.contactsapplication.helpers.UIText
-import com.sk.contactsapplication.presentation.login_register.LoginRegisterUIState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

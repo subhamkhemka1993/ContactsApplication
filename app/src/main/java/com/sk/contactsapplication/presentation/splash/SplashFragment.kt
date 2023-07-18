@@ -8,8 +8,6 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.NavOptions
 import com.sk.contactsapplication.R
-//import com.sk.contactsapplication.ARG_PARAM1
-//import com.sk.contactsapplication.ARG_PARAM2
 import com.sk.contactsapplication.databinding.FragmentSplashBinding
 import com.sk.contactsapplication.helpers.ToolbarTypes
 import com.sk.contactsapplication.base.BaseFragment

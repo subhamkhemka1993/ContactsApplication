@@ -1,4 +1,4 @@
-package com.sk.contactsapplication.presentation
+package com.sk.contactsapplication.presentation.main_activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,7 +7,6 @@ import androidx.activity.viewModels
 import androidx.core.view.isVisible
 import androidx.navigation.NavController
 import androidx.navigation.NavOptions
-import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import com.sk.contactsapplication.R
 import com.sk.contactsapplication.databinding.ActivityMainBinding

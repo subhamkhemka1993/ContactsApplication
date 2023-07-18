@@ -1,4 +1,4 @@
-package com.sk.contactsapplication.presentation.home_fragment
+package com.sk.contactsapplication.presentation.home
 
 import androidx.recyclerview.widget.DiffUtil
 import com.sk.contactsapplication.data.response_models.UserInfo

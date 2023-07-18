@@ -10,7 +10,7 @@ import androidx.fragment.app.viewModels
 import com.sk.contactsapplication.databinding.DialogAddUserBinding
 import com.sk.contactsapplication.helpers.UIText
 import com.sk.contactsapplication.helpers.hideSoftKeyboard
-import com.sk.contactsapplication.presentation.MainActivity
+import com.sk.contactsapplication.presentation.main_activity.MainActivity
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

@@ -6,7 +6,7 @@ import androidx.navigation.NavOptions
 import androidx.navigation.fragment.findNavController
 import com.sk.contactsapplication.helpers.ToolbarTypes
 import com.sk.contactsapplication.helpers.UIText
-import com.sk.contactsapplication.presentation.MainActivity
+import com.sk.contactsapplication.presentation.main_activity.MainActivity
 
 abstract class BaseFragment : Fragment() {
 

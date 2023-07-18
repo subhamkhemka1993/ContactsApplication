@@ -15,7 +15,7 @@ fun LoginDto.toLoginRegistrationUIInfo(): LoginRegistrationUIInfo {
     return LoginRegistrationUIInfo(token = token.orEmpty())
 }
 
-fun User.toUUserInfo(): UserInfo {
+fun User.toUserInfo(): UserInfo {
     return UserInfo(
         avatar = avatar.orEmpty(),
         email = email.orEmpty(),
@@ -38,7 +38,7 @@ fun User.toUUserInfo(): UserInfo {
 
 fun UsersDto.toUserDataInfo(): UserDataInfo {
     return UserDataInfo(
-        userList = usersList?.map { it.toUUserInfo() } ?: emptyList(),
+        userList = usersList?.map { it.toUserInfo() } ?: emptyList(),
         page = page.orZero(),
         perPage = per_page.orZero(),
         totalPages = total_pages.orZero()
