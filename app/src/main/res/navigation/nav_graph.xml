@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.sk.contactsapplication.presentation.splash.SplashFragment"
+        android:label="@string/splash_fragment"
+        tools:layout="@layout/fragment_splash">
+
+        <action
+            android:id="@+id/action_to_login"
+            app:destination="@+id/loginEmailFragment" />
+
+        <action
+            android:id="@+id/action_to_home"
+            app:destination="@+id/homeFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginEmailFragment"
+        android:name="com.sk.contactsapplication.presentation.login_register.LoginRegisterFragment"
+        android:label="@string/login_register_fragment"
+        tools:layout="@layout/fragment_login_register">
+
+        <action
+            android:id="@+id/action_to_home"
+            app:destination="@+id/homeFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.sk.contactsapplication.presentation.home_fragment.HomeFragment"
+        android:label="@string/home_fragment"
+        tools:layout="@layout/fragment_home">
+    </fragment>
+
+</navigation>
